@@ -6,7 +6,7 @@ Currently, the repository contains data structures for:
 
 1. ArrayList
 2. Queue / LinkedList
-3. Clock
+3. Clock / Cyclic Integer
 
 #### Using
 
