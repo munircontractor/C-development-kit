@@ -35,7 +35,7 @@ queue is made.
 
 `void free_queue(struct queue *q, int deep)`:
 
-> Free the memory allocated to the queue and all its elements
+> Free the memory allocated to the queue and all its elements  
 > If `deep` is true, the pointers to `value` are also freed for each
 element using the `free_value_func`. Otherwise, only the queue and
 allocated `queue_element` structs are freed.
