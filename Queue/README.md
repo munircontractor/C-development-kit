@@ -46,7 +46,6 @@ allocated `queue_element` structs are freed.
 
 `void *dequeue(struct queue *q)`:
 
-> Remove and return the value at the head of the queue
-> 
+> Remove and return the value at the head of the queue   
 > Calling this method on an empty queue will return NULL
 
